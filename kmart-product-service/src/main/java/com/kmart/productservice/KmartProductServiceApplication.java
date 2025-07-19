@@ -12,6 +12,7 @@ public class KmartProductServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(KmartProductServiceApplication.class, args);
+		
 	}
 
 }
