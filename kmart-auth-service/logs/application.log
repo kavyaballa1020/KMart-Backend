@@ -1,0 +1,79 @@
+2025-07-18T17:37:30.569+05:30  INFO 20908 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Starting KmartAuthServiceApplication using Java 21.0.6 with PID 20908 (C:\Users\balla\Documents\workspace-spring-tool-suite-4-4.29.1.RELEASE\kmart-auth-service\target\classes started by balla in C:\Users\balla\Documents\workspace-spring-tool-suite-4-4.29.1.RELEASE\kmart-auth-service)
+2025-07-18T17:37:30.575+05:30  INFO 20908 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-18T17:37:30.626+05:30  INFO 20908 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-18T17:37:30.627+05:30  INFO 20908 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-18T17:37:31.605+05:30  INFO 20908 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-18T17:37:31.732+05:30  INFO 20908 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 3 JPA repository interfaces.
+2025-07-18T17:37:31.989+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4a653312-d542-3e17-8dd5-da5f3796d7d8
+2025-07-18T17:37:32.396+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-18T17:37:32.407+05:30  INFO 20908 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18T17:37:32.408+05:30  INFO 20908 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-18T17:37:32.451+05:30  INFO 20908 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18T17:37:32.452+05:30  INFO 20908 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1824 ms
+2025-07-18T17:37:32.570+05:30  INFO 20908 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-18T17:37:32.629+05:30  INFO 20908 --- [auth-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-18T17:37:32.662+05:30  INFO 20908 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-18T17:37:32.873+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-18T17:37:32.900+05:30  INFO 20908 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-18T17:37:33.053+05:30  INFO 20908 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@754768e5
+2025-07-18T17:37:33.056+05:30  INFO 20908 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-18T17:37:33.099+05:30  WARN 20908 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-18T17:37:33.100+05:30  WARN 20908 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-18T17:37:33.116+05:30  INFO 20908 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-18T17:37:33.819+05:30  INFO 20908 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-18T17:37:33.889+05:30  INFO 20908 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T17:37:34.382+05:30  INFO 20908 --- [auth-service] [restartedMain] eAuthenticationProviderManagerConfigurer : Found 3 AuthenticationProvider beans, with names [userAuthProvider, adminAuthProvider, vendorAuthProvider]. Global Authentication Manager will not be configured with AuthenticationProviders. Consider publishing a single AuthenticationProvider bean, or wiring your Providers directly using the DSL.
+2025-07-18T17:37:34.383+05:30  WARN 20908 --- [auth-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Found 3 UserDetailsService beans, with names [adminDetailsService, customUserDetailsService, vendorDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-07-18T17:37:34.443+05:30  WARN 20908 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18T17:37:34.998+05:30  WARN 20908 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-07-18T17:37:35.078+05:30  INFO 20908 --- [auth-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-18T17:37:35.117+05:30  WARN 20908 --- [auth-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-18T17:37:35.174+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-18T17:37:35.200+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-18T17:37:35.206+05:30  INFO 20908 --- [auth-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-18T17:37:35.219+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-18T17:37:35.219+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-18T17:37:35.219+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-18T17:37:35.219+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-18T17:37:35.219+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-18T17:37:35.220+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-18T17:37:35.220+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-18T17:37:35.835+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-18T17:37:35.836+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-18T17:37:35.838+05:30  INFO 20908 --- [auth-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-18T17:37:35.840+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1752840455839 with initial instances count: 0
+2025-07-18T17:37:35.844+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2025-07-18T17:37:35.845+05:30  INFO 20908 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752840455845, current=UP, previous=STARTING]
+2025-07-18T17:37:35.846+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
+2025-07-18T17:37:35.869+05:30  INFO 20908 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-18T17:37:35.870+05:30  INFO 20908 --- [auth-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2025-07-18T17:37:35.896+05:30  INFO 20908 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Started KmartAuthServiceApplication in 5.755 seconds (process running for 7.035)
+2025-07-18T17:37:35.992+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration status: 204
+2025-07-18T17:38:05.849+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-18T17:38:05.849+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-18T17:38:05.849+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-18T17:38:05.849+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-18T17:38:05.850+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-18T17:38:05.850+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-18T17:38:05.850+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-18T17:38:05.880+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-18T17:42:35.234+05:30  INFO 20908 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-18T17:47:35.247+05:30  INFO 20908 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-18T17:50:33.787+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-18T17:50:33.817+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2025-07-18T17:50:33.817+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752841233817, current=DOWN, previous=UP]
+2025-07-18T17:50:33.818+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
+2025-07-18T17:50:33.849+05:30  INFO 20908 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration status: 204
+2025-07-18T17:50:33.864+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18T17:50:33.894+05:30  INFO 20908 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-18T17:50:33.911+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T17:50:33.954+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-18T17:50:33.995+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-18T17:50:33.997+05:30  INFO 20908 --- [auth-service] [RMI TCP Connection(21)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
