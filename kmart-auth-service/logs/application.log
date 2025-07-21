@@ -1452,3 +1452,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2025-07-21T20:56:39.540+05:30 DEBUG 20620 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2025-07-21T20:56:39.541+05:30 DEBUG 20620 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users/role
 2025-07-21T20:57:54.881+05:30  INFO 20620 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T21:02:54.915+05:30  INFO 20620 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
