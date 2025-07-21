@@ -35,7 +35,7 @@ public class UserService {
         userRepository.save(user);
 
         // ✅ Send confirmation email
-        emailService.sendRegistrationEmail(user.getEmail(), user.getFirstName());
+        emailService.sendUserWelcomeEmail(user.getEmail(), user.getFirstName());
     }
 
     

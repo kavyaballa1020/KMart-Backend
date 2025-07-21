@@ -32,7 +32,7 @@ public class AdminService {
         adminRepository.save(admin);
 
         // ✅ Send welcome email
-        emailService.sendRegistrationEmail(admin.getEmail(), admin.getUsername());
+        emailService.sendAdminWelcomeEmail(admin.getEmail(), admin.getUsername());
     }
 
     public boolean validateAdmin(String email, String rawPassword) {

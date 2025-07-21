@@ -32,20 +32,15 @@ public class VendorController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
-        boolean isValid = vendorService.validateVendor(loginRequest.getEmail(), loginRequest.getPassword());
-
-        if (isValid) {
-            String token = jwtUtil.generateToken(loginRequest.getEmail(), "ROLE_VENDOR");
-            return ResponseEntity.ok(Map.of(
-                    "token", token,
-                    "type", "Bearer",
-                    "email", loginRequest.getEmail()
-            ));
-        } else {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Invalid credentials"));
+    public ResponseEntity<?> loginVendor(@RequestBody LoginRequest loginRequest) {
+        try {
+            String message = vendorService.validateVendor(loginRequest.getEmail(), loginRequest.getPassword());
+            return ResponseEntity.ok().body(Map.of("message", message));
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", e.getMessage()));
         }
     }
+
 
     @GetMapping("/me")
     public ResponseEntity<?> getProfile(@RequestHeader("Authorization") String authHeader) {

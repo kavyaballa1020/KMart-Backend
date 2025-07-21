@@ -1,25 +1,25 @@
-2025-07-19T11:37:28.392+05:30  INFO 7748 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Starting KmartAuthServiceApplication using Java 21.0.6 with PID 7748 (C:\Users\balla\Documents\KMART\kmart-auth-service\target\classes started by balla in C:\Users\balla\Documents\KMART\kmart-auth-service)
-2025-07-19T11:37:28.420+05:30  INFO 7748 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-07-19T11:37:28.525+05:30  INFO 7748 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-19T11:37:28.551+05:30  INFO 7748 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-19T11:37:31.361+05:30  INFO 7748 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-19T11:37:31.687+05:30  INFO 7748 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 307 ms. Found 3 JPA repository interfaces.
-2025-07-19T11:37:32.395+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4a653312-d542-3e17-8dd5-da5f3796d7d8
-2025-07-19T11:37:33.332+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-07-19T11:37:33.362+05:30  INFO 7748 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-19T11:37:33.363+05:30  INFO 7748 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-19T11:37:33.489+05:30  INFO 7748 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-19T11:37:33.493+05:30  INFO 7748 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4940 ms
-2025-07-19T11:37:33.907+05:30  INFO 7748 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-19T11:37:34.218+05:30  INFO 7748 --- [auth-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-19T11:37:34.309+05:30  INFO 7748 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-19T11:37:34.932+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-19T11:37:34.997+05:30  INFO 7748 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-19T11:37:35.472+05:30  INFO 7748 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37edcac9
-2025-07-19T11:37:35.479+05:30  INFO 7748 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-19T11:37:35.651+05:30  WARN 7748 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-19T11:37:35.661+05:30  WARN 7748 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-07-19T11:37:35.738+05:30  INFO 7748 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-21T09:26:54.880+05:30  INFO 2580 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Starting KmartAuthServiceApplication using Java 21.0.6 with PID 2580 (C:\Users\balla\Documents\KMART\kmart-auth-service\target\classes started by balla in C:\Users\balla\Documents\KMART\kmart-auth-service)
+2025-07-21T09:26:54.895+05:30  INFO 2580 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T09:26:55.144+05:30  INFO 2580 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T09:26:55.146+05:30  INFO 2580 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T09:26:58.334+05:30  INFO 2580 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T09:26:58.988+05:30  INFO 2580 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 610 ms. Found 3 JPA repository interfaces.
+2025-07-21T09:27:00.450+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4a653312-d542-3e17-8dd5-da5f3796d7d8
+2025-07-21T09:27:02.135+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-07-21T09:27:02.311+05:30  INFO 2580 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T09:27:02.311+05:30  INFO 2580 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-21T09:27:03.324+05:30  INFO 2580 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T09:27:03.326+05:30  INFO 2580 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8176 ms
+2025-07-21T09:27:05.322+05:30  INFO 2580 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T09:27:05.744+05:30  INFO 2580 --- [auth-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21T09:27:05.932+05:30  INFO 2580 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-21T09:27:07.259+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T09:27:07.384+05:30  INFO 2580 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T09:27:08.213+05:30  INFO 2580 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50029f12
+2025-07-21T09:27:08.222+05:30  INFO 2580 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T09:27:08.436+05:30  WARN 2580 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-21T09:27:08.444+05:30  WARN 2580 --- [auth-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-21T09:27:08.515+05:30  INFO 2580 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -27,77 +27,554 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-19T11:37:38.634+05:30  INFO 7748 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-19T11:37:38.881+05:30  INFO 7748 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-19T11:37:40.183+05:30  INFO 7748 --- [auth-service] [restartedMain] eAuthenticationProviderManagerConfigurer : Found 3 AuthenticationProvider beans, with names [userAuthProvider, adminAuthProvider, vendorAuthProvider]. Global Authentication Manager will not be configured with AuthenticationProviders. Consider publishing a single AuthenticationProvider bean, or wiring your Providers directly using the DSL.
-2025-07-19T11:37:40.184+05:30  WARN 7748 --- [auth-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Found 3 UserDetailsService beans, with names [adminDetailsService, customUserDetailsService, vendorDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
-2025-07-19T11:37:40.400+05:30  WARN 7748 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-19T11:37:42.339+05:30  WARN 7748 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-07-19T11:37:42.559+05:30  INFO 7748 --- [auth-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-07-19T11:37:42.697+05:30  WARN 7748 --- [auth-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-07-19T11:37:42.855+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-07-19T11:37:42.964+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-07-19T11:37:42.975+05:30  INFO 7748 --- [auth-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T11:37:43.012+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-07-19T11:37:43.014+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-07-19T11:37:43.014+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-07-19T11:37:43.015+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-07-19T11:37:43.015+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-07-19T11:37:43.015+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-07-19T11:37:43.015+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-07-19T11:37:44.730+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-07-19T11:37:44.734+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-07-19T11:37:44.740+05:30  INFO 7748 --- [auth-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-07-19T11:37:44.746+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1752905264743 with initial instances count: 0
-2025-07-19T11:37:44.759+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
-2025-07-19T11:37:44.760+05:30  INFO 7748 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752905264760, current=UP, previous=STARTING]
-2025-07-19T11:37:44.763+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
-2025-07-19T11:37:44.826+05:30  INFO 7748 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-07-19T11:37:44.836+05:30  INFO 7748 --- [auth-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
-2025-07-19T11:37:44.880+05:30  INFO 7748 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Started KmartAuthServiceApplication in 17.672 seconds (process running for 19.689)
-2025-07-19T11:37:45.089+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration status: 204
-2025-07-19T11:38:14.739+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-07-19T11:38:14.741+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-07-19T11:38:14.741+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-07-19T11:38:14.743+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-07-19T11:38:14.743+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-07-19T11:38:14.743+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2025-07-19T11:38:14.743+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-07-19T11:38:14.831+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-07-19T11:39:02.843+05:30  INFO 7748 --- [auth-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-19T11:39:02.844+05:30  INFO 7748 --- [auth-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-19T11:39:02.855+05:30  INFO 7748 --- [auth-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2025-07-19T11:42:43.107+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T11:47:43.139+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T11:52:43.153+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T11:57:43.167+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T12:02:43.187+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T12:07:43.214+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T12:12:43.249+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T12:17:43.279+05:30  INFO 7748 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-07-19T12:22:17.743+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.a.h.c.h.i.c.HttpRequestRetryExec       : Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {}->[http://localhost:8761]
-2025-07-19T12:22:17.963+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T09:27:11.544+05:30  INFO 2580 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21T09:27:11.808+05:30  INFO 2580 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T09:27:13.056+05:30  INFO 2580 --- [auth-service] [restartedMain] eAuthenticationProviderManagerConfigurer : Found 3 AuthenticationProvider beans, with names [userAuthProvider, adminAuthProvider, vendorAuthProvider]. Global Authentication Manager will not be configured with AuthenticationProviders. Consider publishing a single AuthenticationProvider bean, or wiring your Providers directly using the DSL.
+2025-07-21T09:27:13.059+05:30  WARN 2580 --- [auth-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Found 3 UserDetailsService beans, with names [adminDetailsService, customUserDetailsService, vendorDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-07-21T09:27:13.060+05:30 DEBUG 2580 --- [auth-service] [restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-07-21T09:27:13.168+05:30  WARN 2580 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T09:27:13.719+05:30 DEBUG 2580 --- [auth-service] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-21T09:27:14.179+05:30  WARN 2580 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-07-21T09:27:14.313+05:30  INFO 2580 --- [auth-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-21T09:27:14.383+05:30  WARN 2580 --- [auth-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-21T09:27:14.474+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-21T09:27:14.514+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-21T09:27:14.521+05:30  INFO 2580 --- [auth-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:27:14.535+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-21T09:27:14.535+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-21T09:27:14.536+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-21T09:27:14.536+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-21T09:27:14.537+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-21T09:27:14.537+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-21T09:27:14.537+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-21T09:27:15.780+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-21T09:27:15.782+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-21T09:27:15.786+05:30  INFO 2580 --- [auth-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-21T09:27:15.789+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1753070235788 with initial instances count: 0
+2025-07-21T09:27:15.796+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2025-07-21T09:27:15.798+05:30  INFO 2580 --- [auth-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1753070235798, current=UP, previous=STARTING]
+2025-07-21T09:27:15.801+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
+2025-07-21T09:27:15.833+05:30  INFO 2580 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-21T09:27:15.835+05:30  INFO 2580 --- [auth-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2025-07-21T09:27:15.864+05:30  INFO 2580 --- [auth-service] [restartedMain] c.k.a.KmartAuthServiceApplication        : Started KmartAuthServiceApplication in 22.396 seconds (process running for 24.739)
+2025-07-21T09:27:16.045+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration status: 204
+2025-07-21T09:27:45.792+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-21T09:27:45.801+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-21T09:27:45.802+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-21T09:27:45.802+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-21T09:27:45.802+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-21T09:27:45.802+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-21T09:27:45.803+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-21T09:27:45.903+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-21T09:27:59.278+05:30  INFO 2580 --- [auth-service] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21T09:27:59.279+05:30  INFO 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-21T09:27:59.302+05:30  INFO 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2025-07-21T09:27:59.351+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T09:27:59.351+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T09:27:59.384+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:27:59.477+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:27:59.484+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:27:59.499+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-07-21T09:27:59.500+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:27:59.501+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:27:59.504+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:27:59.509+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:27:59.510+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:27:59.513+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-07-21T09:27:59.513+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:27:59.514+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:28:06.869+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:28:06.881+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:28:06.882+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:28:06.884+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-07-21T09:28:06.885+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:28:06.886+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:28:06.895+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:28:06.901+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:28:06.901+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:28:06.903+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-07-21T09:28:06.903+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:28:06.904+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T09:28:30.050+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/login
+2025-07-21T09:28:30.055+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T09:28:30.058+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:28:30.061+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T09:28:33.500+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:28:33.657+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T09:28:33.792+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T09:28:34.022+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T09:29:31.729+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/login
+2025-07-21T09:29:31.735+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T09:29:31.736+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:29:31.737+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T09:30:02.908+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T09:30:02.912+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T09:30:02.912+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T09:30:05.013+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T09:30:05.013+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T09:30:05.025+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:30:05.040+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:30:05.090+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:30:05.107+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:32:14.556+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:33:26.401+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:33:26.652+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:33:26.699+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:33:26.720+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:36:36.889+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:36:37.068+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:36:37.117+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:36:37.162+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:37:14.573+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:41:26.874+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:26.951+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:41:26.980+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:27.001+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:41:29.995+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:30.030+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:41:30.046+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:30.088+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:41:46.533+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:46.558+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:41:46.576+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:41:46.605+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:42:14.585+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:46:48.196+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:46:48.335+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:46:48.361+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:46:48.390+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:47:04.997+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:47:05.028+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:47:05.044+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:47:05.075+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:47:12.535+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:47:12.569+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:47:12.588+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:47:12.622+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:47:14.599+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:50:06.300+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:06.396+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:50:06.431+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:06.458+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:50:12.653+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:12.680+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:50:12.700+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:12.728+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:50:18.927+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:18.947+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:50:18.959+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:50:18.982+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:51:32.851+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:51:32.896+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:51:32.914+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:51:32.938+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:51:34.736+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:51:34.787+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:51:34.808+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:51:34.832+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:52:14.606+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:52:18.708+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:52:18.765+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:52:18.780+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:52:18.798+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:54:48.877+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:54:48.930+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:54:48.958+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:54:48.971+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:54:53.712+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:54:53.753+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:54:53.770+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:54:53.791+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:55:08.379+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:55:08.407+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:55:08.427+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:55:08.454+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:57:14.620+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T09:57:56.073+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:57:56.113+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:57:56.132+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:57:56.156+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:26.620+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:26.648+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:26.664+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:26.706+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:29.083+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:29.111+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:29.122+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:29.148+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:33.200+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:33.219+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T09:58:33.233+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T09:58:33.252+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:00:54.781+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T10:00:54.781+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T10:00:54.810+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:00:54.882+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:00:54.898+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:00:54.912+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:02:14.634+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:02:46.192+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:02:46.222+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:02:46.238+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:02:46.256+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:04:53.792+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:04:53.832+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:04:53.852+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:04:53.868+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:07:14.644+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:11:40.720+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:11:40.854+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:11:40.884+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:11:40.905+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:11:57.103+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/login
+2025-07-21T10:11:57.117+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T10:11:57.121+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:11:57.124+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T10:12:14.658+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:13:48.151+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T10:13:48.153+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:13:48.153+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T10:14:20.347+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:14:20.385+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:14:20.402+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:14:20.421+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:14:29.274+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:14:29.295+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:14:29.315+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:14:29.340+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:17:14.668+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:22:14.687+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:27:14.707+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:28:16.780+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T10:28:16.803+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:28:16.806+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T10:28:16.953+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T10:28:16.954+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:28:16.954+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T10:28:19.886+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:28:19.930+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:28:19.957+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:28:19.977+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:28:23.032+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:28:23.067+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:28:23.088+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T10:28:23.122+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T10:28:34.315+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/login
+2025-07-21T10:28:34.324+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T10:28:34.325+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:28:34.325+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T10:28:40.296+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T10:28:40.297+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T10:28:40.310+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:40.392+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:28:40.535+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:40.699+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:28:47.604+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:47.667+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:28:47.752+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:47.876+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:28:49.440+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:49.630+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:28:49.760+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:28:49.796+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:29:02.325+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:29:02.389+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:29:02.469+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:29:02.535+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:32:14.712+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:37:14.783+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:37:15.466+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:37:15.630+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:37:15.921+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:37:22.788+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:38:25.671+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T10:38:25.674+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:38:25.675+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T10:40:01.217+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T10:40:01.218+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:40:01.219+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T10:42:22.802+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:44:36.874+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T10:44:36.876+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:44:36.877+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T10:47:11.936+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:12.899+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:47:13.257+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:13.667+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:47:15.853+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:15.970+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:47:16.247+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:16.327+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:47:22.811+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:47:30.148+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:30.330+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:47:30.501+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:47:30.555+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:49:13.225+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:49:14.019+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:49:14.228+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T10:49:14.501+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T10:52:22.839+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T10:52:30.575+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T10:52:30.593+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:52:30.598+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T10:55:08.985+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T10:55:08.994+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T10:55:08.995+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T10:57:22.898+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:02:22.960+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:07:22.996+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:08:55.691+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/login
+2025-07-21T11:08:55.730+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T11:08:55.741+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:08:55.747+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T11:08:58.568+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T11:08:58.569+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T11:08:58.578+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:08:58.698+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:08:58.784+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:08:59.693+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:09:01.663+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:09:01.775+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:09:01.982+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:09:02.078+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:11:06.175+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:11:06.267+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:11:06.366+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:11:06.418+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:12:23.030+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:12:33.902+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/vendor/login
+2025-07-21T11:12:33.925+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/vendor/login
+2025-07-21T11:12:33.931+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:12:33.935+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/vendor/login
+2025-07-21T11:13:16.110+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T11:13:16.122+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:13:16.122+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T11:14:04.835+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:14:05.299+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:14:05.445+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:14:05.722+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:14:14.470+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:14:14.978+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:14:15.179+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:14:15.321+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:16:41.355+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/login
+2025-07-21T11:16:41.368+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T11:16:41.372+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:16:41.373+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T11:17:06.939+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T11:17:06.940+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:17:06.940+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T11:17:23.085+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:17:45.956+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:17:46.028+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:17:46.120+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:17:46.327+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:18:45.929+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:18:46.010+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:18:46.076+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:18:46.194+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:19:48.739+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:19:48.838+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:19:48.939+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:19:49.147+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:22:23.091+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:27:23.118+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:27:25.423+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:27:26.447+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:27:26.708+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:27:27.079+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:27:27.255+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:27:27.352+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:27:27.504+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:27:27.606+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:20.313+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:20.859+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:21.445+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:21.724+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:22.338+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:22.594+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:22.706+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:22.778+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:24.834+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:24.941+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:31:25.056+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:31:25.110+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:32:23.160+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:33:53.292+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:33:53.654+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:33:53.776+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:33:53.898+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:37:23.169+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:42:23.193+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:47:23.214+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:49:36.969+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T11:49:36.969+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T11:49:37.011+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:49:37.465+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:49:37.665+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:49:37.932+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:49:41.906+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:49:42.089+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:49:42.175+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:49:42.326+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:51:48.853+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:51:49.006+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:51:49.108+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:51:49.183+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:51:51.604+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:51:51.692+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:51:51.789+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:51:51.886+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:23.239+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:52:26.462+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:26.521+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:26.588+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:26.649+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:29.331+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:29.490+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:29.823+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:30.638+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:35.141+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:35.220+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:35.308+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:35.388+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:37.229+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:37.272+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:52:37.335+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:52:37.374+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:12.196+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:12.246+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:12.339+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:12.413+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:14.879+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:14.922+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:15.004+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:15.057+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:16.139+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:16.178+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:53:16.238+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T11:53:16.297+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T11:54:28.155+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/vendor/login
+2025-07-21T11:54:28.159+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/vendor/login
+2025-07-21T11:54:28.160+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:54:28.160+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/vendor/login
+2025-07-21T11:57:23.253+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T11:59:50.982+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/login
+2025-07-21T11:59:50.987+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T11:59:50.988+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T11:59:50.988+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T12:02:23.257+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:02:51.037+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/vendor/login
+2025-07-21T12:02:51.039+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:02:51.039+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/vendor/login
+2025-07-21T12:03:42.847+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/login
+2025-07-21T12:03:42.853+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T12:03:42.854+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:03:42.854+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T12:07:23.273+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:09:48.396+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T12:09:48.403+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:09:48.404+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T12:12:23.309+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:13:52.172+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T12:13:52.178+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:13:52.179+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T12:13:54.327+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T12:13:54.494+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T12:13:54.618+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T12:13:54.791+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T12:14:37.375+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T12:14:37.376+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:14:37.377+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T12:15:12.497+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T12:15:12.497+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/vendors/pending
+2025-07-21T12:15:12.511+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T12:15:12.533+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T12:15:12.583+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/vendors/pending
+2025-07-21T12:15:12.597+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/vendors/pending
+2025-07-21T12:16:34.696+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T12:16:34.697+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:16:34.697+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T12:17:23.333+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:20:00.522+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/user/login
+2025-07-21T12:20:00.533+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/user/login
+2025-07-21T12:20:00.537+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:00.550+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:20:00.560+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /error
+2025-07-21T12:20:00.560+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:00.561+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:20:28.527+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/user/login
+2025-07-21T12:20:28.527+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:28.528+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:20:28.529+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /error
+2025-07-21T12:20:28.529+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:28.529+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:20:43.332+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/user/login
+2025-07-21T12:20:43.334+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:43.335+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:20:43.337+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /error
+2025-07-21T12:20:43.337+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:20:43.337+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:21:48.398+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/admin/login
+2025-07-21T12:21:48.399+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:21:48.401+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/admin/login
+2025-07-21T12:21:59.938+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/user/login
+2025-07-21T12:21:59.939+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:21:59.940+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:21:59.941+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /error
+2025-07-21T12:21:59.941+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:21:59.941+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-07-21T12:22:23.339+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:24:58.330+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/users/login
+2025-07-21T12:24:58.346+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-21T12:24:58.346+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/users/login
+2025-07-21T12:25:02.798+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T12:25:02.798+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/me
+2025-07-21T12:25:02.804+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T12:25:03.040+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T12:25:03.251+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users/me
+2025-07-21T12:25:03.516+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users/me
+2025-07-21T12:25:22.708+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/update
+2025-07-21T12:25:22.809+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/users/update
+2025-07-21T12:25:22.946+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/users/update
+2025-07-21T12:25:24.640+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/users/upload-picture
+2025-07-21T12:25:24.640+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /api/users/upload-picture
+2025-07-21T12:25:24.689+05:30 DEBUG 2580 --- [auth-service] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /api/users/upload-picture
+2025-07-21T12:27:23.357+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:32:23.359+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:37:23.364+05:30  INFO 2580 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-21T12:39:25.827+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-21T12:39:25.837+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2025-07-21T12:39:25.838+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1753081765838, current=DOWN, previous=UP]
+2025-07-21T12:39:25.838+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
+2025-07-21T12:39:25.863+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21T12:39:25.886+05:30  INFO 2580 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-21T12:39:25.904+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T12:39:25.925+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-21T12:39:25.934+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T12:39:25.935+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-07-21T12:39:25.939+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:186)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
-	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
-	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
-	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
@@ -136,231 +613,10 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
 	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
-	... 22 more
+	... 21 more
 
-2025-07-19T12:22:17.963+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
-	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
-	... 19 more
-
-2025-07-19T12:22:17.964+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:17.964+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:18.009+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
-	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
-	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
-	... 20 more
-
-2025-07-19T12:22:18.010+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:186)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
-	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
-	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
-	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
-	... 23 more
-
-2025-07-19T12:22:18.011+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:18.011+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:18.011+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
-	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
-	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
-	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
-	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-2025-07-19T12:22:18.011+05:30 ERROR 7748 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - was unable to send heartbeat!
-
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402) ~[eureka-client-2.0.4.jar:2.0.4]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-07-19T12:22:18.415+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-19T12:22:18.451+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
-2025-07-19T12:22:18.451+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752907938451, current=DOWN, previous=UP]
-2025-07-19T12:22:18.452+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081: registering service...
-2025-07-19T12:22:18.496+05:30  INFO 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T12:39:25.940+05:30  WARN 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T12:39:25.986+05:30  INFO 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -422,8 +678,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 22 more
 
-2025-07-19T12:22:18.496+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:18.496+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration failed Cannot execute request on any known server
+2025-07-21T12:39:25.986+05:30  WARN 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/AUTH-SERVICE": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T12:39:25.987+05:30  WARN 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -441,7 +697,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-07-19T12:22:18.498+05:30  WARN 7748 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2025-07-21T12:39:26.015+05:30  WARN 2580 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -459,14 +715,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-07-19T12:22:18.500+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-19T12:22:18.529+05:30  INFO 7748 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-19T12:22:18.563+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-19T12:22:18.625+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-19T12:22:18.636+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-19T12:22:18.639+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-07-19T12:22:21.687+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-07-19T12:22:21.769+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T12:39:26.018+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-07-21T12:39:26.067+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -575,8 +825,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 69 more
 
-2025-07-19T12:22:21.772+05:30  WARN 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2025-07-19T12:22:21.772+05:30 ERROR 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - de-registration failedCannot execute request on any known server
+2025-07-21T12:39:26.067+05:30  WARN 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/AUTH-SERVICE/Kavya:auth-service:8081": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-07-21T12:39:26.067+05:30 ERROR 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Kavya:auth-service:8081 - de-registration failedCannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -641,4 +891,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-07-19T12:22:21.803+05:30  INFO 7748 --- [auth-service] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-07-21T12:39:26.074+05:30  INFO 2580 --- [auth-service] [RMI TCP Connection(241)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
