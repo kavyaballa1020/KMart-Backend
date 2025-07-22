@@ -1,5 +1,5 @@
 package com.kmart.productservice.model;
-	
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -16,11 +16,16 @@ public class Product {
 
     private String name;
     private String description;
-    private double price;
+    private Double price;
+    private Integer quantity;
 
-    private String imageUrl;
+    @Lob
+    @Column(columnDefinition = "LONGBLOB")
+    private byte[] imageData;
 
-    private Long subCategoryId; // Link to subcategory
+    private String imageType; // image/jpeg, image/png, etc.
+
+    private Long subCategoryId;
 
 	public Long getId() {
 		return id;
@@ -46,20 +51,36 @@ public class Product {
 		this.description = description;
 	}
 
-	public double getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 
-	public String getImageUrl() {
-		return imageUrl;
+	public Integer getQuantity() {
+		return quantity;
 	}
 
-	public void setImageUrl(String imageUrl) {
-		this.imageUrl = imageUrl;
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	public byte[] getImageData() {
+		return imageData;
+	}
+
+	public void setImageData(byte[] imageData) {
+		this.imageData = imageData;
+	}
+
+	public String getImageType() {
+		return imageType;
+	}
+
+	public void setImageType(String imageType) {
+		this.imageType = imageType;
 	}
 
 	public Long getSubCategoryId() {
@@ -69,6 +90,7 @@ public class Product {
 	public void setSubCategoryId(Long subCategoryId) {
 		this.subCategoryId = subCategoryId;
 	}
-    
+
+	
     
 }

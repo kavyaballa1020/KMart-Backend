@@ -1,12 +1,14 @@
 package com.kmart.productservice.controller;
 
-
-import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
-
 import com.kmart.productservice.model.Product;
 import com.kmart.productservice.service.ProductService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -21,17 +23,19 @@ public class ProductController {
     }
 
 
-    @PostMapping
-    public Product addProduct(@RequestBody Product product,
-                              @RequestHeader("Authorization") String token) {
-        return service.addProduct(product, token);
+    @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public Product addProduct(@RequestPart("product") Product product,
+                              @RequestPart(value = "image", required = false) MultipartFile image,
+                              @RequestHeader("Authorization") String token) throws IOException {
+        return service.addProduct(product, image, token);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping(value = "/{id}", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public Product updateProduct(@PathVariable Long id,
-                                 @RequestBody Product product,
-                                 @RequestHeader("Authorization") String token) {
-        return service.updateProduct(id, product, token);
+                                 @RequestPart("product") Product product,
+                                 @RequestPart(value = "image", required = false) MultipartFile image,
+                                 @RequestHeader("Authorization") String token) throws IOException {
+        return service.updateProduct(id, product, image, token);
     }
 
     @DeleteMapping("/{id}")
@@ -53,5 +57,11 @@ public class ProductController {
     @GetMapping("/subcategory/{subCategoryId}")
     public List<Product> getBySubCategory(@PathVariable Long subCategoryId) {
         return service.getBySubCategory(subCategoryId);
+    }
+
+    // Optional: to retrieve image directly
+    @GetMapping("/{id}/image")
+    public ResponseEntity<byte[]> getProductImage(@PathVariable Long id) {
+        return service.getProductImage(id);
     }
 }
