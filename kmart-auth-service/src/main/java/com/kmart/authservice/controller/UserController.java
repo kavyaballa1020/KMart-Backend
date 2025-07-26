@@ -126,5 +126,7 @@ public class UserController {
         String role = jwtUtil.extractRole(token);
         return ResponseEntity.ok(role);
     }
+    
+
 
 }
