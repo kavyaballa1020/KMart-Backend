@@ -25,6 +25,7 @@
         <module>auth-service</module>
         <module>kmart-category-service</module>
         <module>kmart-product-service</module>
+        <module>kmart-cart-service</module>
     </modules>
 
     <properties>
