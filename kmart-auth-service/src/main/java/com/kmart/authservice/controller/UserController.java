@@ -49,16 +49,24 @@ public class UserController {
 
         if (isValid) {
             String token = jwtUtil.generateToken(loginRequest.getEmail(), "ROLE_USER");
+
+            User user = userService.getUserByEmail(loginRequest.getEmail());
+
             return ResponseEntity.ok(Map.of(
                 "token", token,
                 "type", "Bearer",
-                "email", loginRequest.getEmail()
+                "email", user.getEmail(),
+                "userId", user.getId(),
+                "firstName", user.getFirstName(),
+                "role", "ROLE_USER"
             ));
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
                 .body(Map.of("error", "Invalid email or password"));
         }
     }
+
+
 
     @GetMapping("/me")
     public ResponseEntity<?> getCurrentUser(Principal principal) {
@@ -127,6 +135,7 @@ public class UserController {
         return ResponseEntity.ok(role);
     }
     
+
 
 
 }

@@ -41,7 +41,8 @@ public class SecurityConfig {
             	        "/api/users/register", "/api/users/login",
             	        "/api/admin/register", "/api/admin/login",
             	        "/api/vendor/register", "/api/vendor/login",
-            	        "/api/users/role" // ← add this line
+            	        "/api/users/role",
+            	        "/api/users/id"// ← add this line
             	    ).permitAll()
             	    .requestMatchers("/api/users/**").hasAuthority("ROLE_USER")
             	    .requestMatchers("/api/admin/**").hasAuthority("ROLE_ADMIN")

@@ -43,8 +43,10 @@ public class JwtUtil {
 
     // ✅ Extract username (subject) from token
     public String extractUsername(String token) {
+        token = token.replace("Bearer ", ""); // 🔥 Clean up the header
         return extractClaim(token, Claims::getSubject);
     }
+
 
     // ✅ Extract role from token
     public String extractRole(String token) {
@@ -81,4 +83,7 @@ public class JwtUtil {
                 .parseClaimsJws(token)
                 .getBody();
     }
+
+
+
 }

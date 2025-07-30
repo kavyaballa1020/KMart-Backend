@@ -44,9 +44,12 @@ public class CartServiceImpl implements CartService {
             item.setProductName(product.getName());
             item.setPrice(product.getPrice());
             item.setQuantity(quantity);
+            item.setImageData(product.getImageData()); // ✅
+            item.setImageType(product.getImageType()); // ✅
             item.setCart(cart);
             cart.getItems().add(item);
         }
+
 
         return cartRepo.save(cart);
     }
@@ -72,6 +75,22 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public Cart getCartByUserId(Long userId) {
-        return cartRepo.findById(userId).orElseThrow(() -> new RuntimeException("Cart not found"));
+        Cart cart = cartRepo.findById(userId)
+            .orElseThrow(() -> new RuntimeException("Cart not found"));
+
+        for (CartItem item : cart.getItems()) {
+            if (item.getImageData() == null || item.getImageType() == null) {
+                try {
+                    ProductDto product = productClient.getProductById(item.getProductId());
+                    item.setImageData(product.getImageData());
+                    item.setImageType(product.getImageType());
+                } catch (Exception e) {
+                    System.out.println("Failed to fetch product info for ID: " + item.getProductId());
+                }
+            }
+        }
+
+        return cartRepo.save(cart); // Optionally save it back, or return without saving
     }
+
 }
